@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center justify-center space-x-2 mb-3">
               <span className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-                MoodCraft
+                Kyle's Mood Board
               </span>
             </div>
             <p className="text-slate-400 mb-4 max-w-md mx-auto">
@@ -46,10 +46,13 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Copyright */}
+          {/* Attribution and Copyright */}
           <div className="space-y-1 pt-4 border-t border-slate-700/50 dark:border-slate-800/50">
+            <p className="text-sm font-medium bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+              Built by SofiTchAiSolutions
+            </p>
             <p className="text-xs text-slate-500">
-              © {new Date().getFullYear()} MoodCraft. All rights reserved.
+              © {new Date().getFullYear()} Kyle's Mood Board. All rights reserved.
             </p>
           </div>
         </div>

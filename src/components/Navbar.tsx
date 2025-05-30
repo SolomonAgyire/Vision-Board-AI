@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -39,7 +38,7 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-white hover:text-orange-400 transition-colors"
           >
             <Palette className="w-8 h-8 text-orange-500" />
-            <span className="text-xl font-bold">MoodCraft</span>
+            <span className="text-xl font-bold">Kyle's Mood Board</span>
           </Link>
 
           {/* Navigation Links */}
